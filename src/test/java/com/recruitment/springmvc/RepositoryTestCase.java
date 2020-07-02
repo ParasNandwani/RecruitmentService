@@ -28,7 +28,7 @@ public class RepositoryTestCase {
 	
 	@Test
 	public void createJobOffer() {
-		when(offerService.createJobService(new JobOffer(jobOfferId, jobTitle, starttDate, noOfApplications));)
+		when(offerService.createJobService(new JobOffer("JAVA Developer","20062020",0)))
 	}
 	
 	
